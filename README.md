@@ -10,19 +10,19 @@ la equina superior izquierda del tablero, mientras que la casilla 9 será la esq
 En la imagen siguiente se encuentra la numeración exacta del tablero:
 
   ``
-       |     |
+
        
     1  |  2  |  3
     
-  -----|-----|-----
+
   
     4  |  5  |  6
     
-  -----|-----|-----
+
   
     7  |  8  |  9
     
-       |     |
+
 ``
 
 
