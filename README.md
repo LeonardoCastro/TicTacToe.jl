@@ -11,11 +11,17 @@ En la imagen siguiente se encuentra la numeración exacta del tablero:
 
   ``
        |     |
+       
     1  |  2  |  3
+    
   -----|-----|-----
+  
     4  |  5  |  6
+    
   -----|-----|-----
+  
     7  |  8  |  9
+    
        |     |
 ``
 
