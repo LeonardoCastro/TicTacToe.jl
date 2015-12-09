@@ -14,6 +14,6 @@ type Jugador        ## Tipo jugador, con su número y marcador
     marcador::Int8
 end
 
-Jugador(n::Int64) = Jugador(int8(n), int8(0))  # Función que inicia un jugador nuevo con su número
+Jugador(n::Int64) = Jugador(Int8(n), Int8(0))  # Función que inicia un jugador nuevo con su número
                                                # marcador cero
 
