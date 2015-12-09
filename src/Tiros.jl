@@ -43,9 +43,9 @@ end
 
 ####### Estos arreglos son las distintas combinaciones para las cuales se puede ganar
 
-Comb_h = [(1, 2, 3), (4, 5, 6), (7, 8, 9)]  # combinaciones horizontales
-Comb_v = [(1, 4, 7), (2, 5, 8), (3, 6, 9)]  # combinaciones verticales
-Comb_d = [(1, 5, 9), (3, 5, 7)]             # combinaciones diagonales
+Comb_h = [(1, 2, 3); (4, 5, 6); (7, 8, 9)]  # combinaciones horizontales
+Comb_v = [(1, 4, 7); (2, 5, 8); (3, 6, 9)]  # combinaciones verticales
+Comb_d = [(1, 5, 9); (3, 5, 7)]             # combinaciones diagonales
 
 Combinaciones = [Comb_h, Comb_v, Comb_d]    # juntamos todas las combinaciones
 
