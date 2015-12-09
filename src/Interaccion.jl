@@ -42,7 +42,7 @@ function Pregunta_tiro(num::Int8)   # Se le preguntal al jugador donde quiere ti
     check2 = false
     while check2 == false
         println("¿Donde quieres tirar, Miau $num?")
-        loc = int(chomp(readline(STDIN)))
+        loc = parse(Int64, chomp(readline(STDIN)))
         if loc > 9
             println("Solo hay 9 celdas -_-")
             check2 = false
