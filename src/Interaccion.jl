@@ -6,7 +6,7 @@
 
 function Init(empate::Bool)     # Función para empezar el juego
     if empate == true           # En caso de que haya habido empate o sea el primer juego
-        println("¿Quién empieza?")
+        println("¿Quién empieza? \n Se tiró una moneda y...")
         moneda = rand(1:2)      # Se tira una moneda para saber quien empieza
 
         # X se modelan con un 1 y las O's con un -1. Se regresa un arreglo para saber el orden
